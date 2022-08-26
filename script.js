@@ -10,8 +10,8 @@ submitBtn.addEventListener('click', function(event){
         // console.log(data)
         dishes.map((meal) =>{
             let result = `<div><h1>Name : ${meal.strMeal}</h1>
-            <h1>Instructions</h1> : 
-            <p>${meal.strInstructions}</p>/div>`
+            <h1>Instructions: </h1> 
+            <p>${meal.strInstructions}</p></div>`
         let container = document.querySelector(".container")
         container.innerHTML += result
         })
